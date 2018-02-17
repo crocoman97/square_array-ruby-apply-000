@@ -1,3 +1,7 @@
 def square_array(array)
-  array.each
+  square_array = []
+  array.each { |x|
+    square_array.<<(x*x)
+  }
+  square_array
 end
